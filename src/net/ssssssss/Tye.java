@@ -18,6 +18,7 @@ public class Tye {
 	public String[] get() {
 		long r = (long) (Math.random()*randomLong+this.randomMin);
 		long rr = (long) (Math.random()*this.count);
+		//rr+r ¹şÏ£ÖµÖÖ×Ó
 		String[] result = {Md5.get(rr+r),r+"",r+this.count+""};
 		return result;
 	}
